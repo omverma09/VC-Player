@@ -1,0 +1,136 @@
+.main-video {
+  width: 30%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  background-color: #000;
+  object-fit: cover;
+}
+
+.meetvideocontainer{
+  position: relative;
+  height: 100vh;
+  background-color: rgb(34, 70, 129);
+}
+.meetuserVideo{
+  position: absolute;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(99, 96, 96, 0.3);
+  border: 2px solid rgb(44, 44, 70);
+  bottom: 5vh;
+  height: 30vh;
+  width: auto;
+  left: 0;
+  margin-left: 1rem;
+}
+
+.remote-video {
+  width: 230px;
+  height: 180px;
+  border-radius: 10px;
+  border: 2px solid #3f51b5;
+  object-fit: cover;
+  background-color: #000;
+}
+
+.video-username {
+  color: #fff;
+  background-color: #3f51b5;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* .main-video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  position: relative;
+} */
+
+.buttoncontainer{
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
+  text-align: center;
+}
+.conferenceView {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.buttoncontainer svg{
+  font-size: 2.3rem;
+}
+
+/* Chat Room styling */
+
+.chatRoom{
+  position: absolute;
+  height: 90vh;
+  width: 50vh;
+  right: 0;
+  background-color: white;
+  border-radius: 10px;
+  padding-inline: 20px;
+}
+.chatContainer{
+  position: relative;
+  height: 100%;
+}
+.chatingArea{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+/* Chat message container */
+.chattingDisplay {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Common chat bubble */
+.chat-message {
+  max-width: 70%;
+  margin: 8px 0;
+  padding: 10px 14px;
+  border-radius: 12px;
+  word-wrap: break-word;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Message from yourself (sender) */
+.chat-message.sender {
+  background-color: #dcf8c6; /* light green like WhatsApp */
+  align-self: flex-end;
+  border-bottom-right-radius: 0;
+}
+.chat-message.receiver {
+  background-color: #ffffff;
+  align-self: flex-start;
+  border-bottom-left-radius: 0;
+  border: 1px solid #e0e0e0;
+}
+
+/* Sender name */
+.chat-message p.sender-name {
+  font-weight: bold;
+  margin: 0 0 3px 0;
+  font-size: 12px;
+  color: #555;
+}
+
+

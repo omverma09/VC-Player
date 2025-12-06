@@ -1,0 +1,99 @@
+.landingpageContainer{
+    height: 100vh;
+    width: 100vw;
+    background: url("../public/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.landingpageContainer nav{
+    padding-inline: 1rem;
+    padding-block: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.landingpageContainer nav h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.landingpageContainer nav .navList{
+    display: flex;
+    gap: 1.8rem;
+    cursor: pointer;
+}
+.landingMainContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 3rem;
+    height: 80vh;
+    align-items: center;
+}
+.landingMainContainer > div:nth-child(1){
+    font-size: 1.5rem;
+}
+.landingMainContainer > div:nth-child(1) div[role="button"]{
+    background-color: rgb(253, 186, 19);
+    width: fit-content;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.landingMainContainer > div:nth-child(1) a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: rgb(30, 28, 28);
+    font-weight: 600;
+}
+.landingMainContainer > div:nth-child(2) img{
+    height: 80vh;
+    width: auto;
+}
+.getStarted:hover{
+    transform: scale(0.8);
+    filter: drop-shadow(0 0 20px #ffdd00);
+}
+.icon:hover {
+  color: #00bfff;
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 15px #00bfff);
+}
+
+/* For NavBar */
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    text-align: center;
+}
+.navRight{
+    margin-right: 10px;
+}
+.navRight p{
+    margin-top: 7.5px;
+    margin-right: 10px;
+}
+
+.leftPanel{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.rightPanel{
+    display: flex;
+    align-items: center;
+}
+.rightPanel > img{
+    width: 30vw;
+    height: auto;
+}
+.meetContainer{
+    display: flex;
+    padding-inline: 20px;
+    height: 80vh;
+    gap: 10vh;
+    justify-content: center;
+}
