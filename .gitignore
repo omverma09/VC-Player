@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 node_modules/
 .env
 /Backend/node_modules
 /frontend/node_modules
 /frontend/build
 /frontend/dist
+=======
+frontend/node_modules
+Backend/node_modules
+>>>>>>> 7a1a9d69b3b5e4e1fe700dd99083397aa2a2be75
