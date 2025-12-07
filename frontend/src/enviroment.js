@@ -1,4 +1,4 @@
-let IS_PROD = false;
+let IS_PROD = true;
 
 const server = IS_PROD ? "https://vc-player-e161.onrender.com" :
              
