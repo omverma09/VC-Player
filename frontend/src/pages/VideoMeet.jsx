@@ -11,8 +11,9 @@ import ChatIcon from '@mui/icons-material/Chat'
 
 import "../styles/VideoMeet.css"
 import { useNavigate } from 'react-router-dom';
+import server from '../enviroment';
 
-const server_url = "http://localhost:8000";
+const server_url = server;
 
 var connections = {};
 
